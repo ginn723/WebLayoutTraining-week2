@@ -1,0 +1,70 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.s1{
+  height: 958px;
+  background: url('../images/banner.png') no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+
+.red-dot::before{
+  content:'⬤';
+  color: #891818;
+  margin-right: .5rem;
+}
+
+.s2{
+  max-width: 384px;
+  margin: 0 auto;
+}
+
+.s3{
+  height: 1406px;
+  background: #000;
+  margin: 0 auto;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.s4{
+  margin: 0 auto;
+}
+
+.footer{
+  margin-top: 144px;
+  background: #000;
+  height: 310px;
+}
+
+.link{
+  color: #d1d1d1;
+}
+
+.link:hover, .link:focus{
+  color: #fff;
+}
+
+.link-black{
+  color:rgb(59, 59, 59);
+}
+
+.link-black:hover, .link:focus{
+  color: #000;
+}
